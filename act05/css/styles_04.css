@@ -1,0 +1,36 @@
+body {
+    background-color: #f8f3fc;
+    color: #4c0070;
+}
+
+h1, h2 {
+    color: #6a0dad;
+}
+
+.bg-light {
+    background-color: #e9d8fd !important;
+    color: #4c0070;
+}
+
+.bg-secondary {
+    background-color: #7f4fc9 !important;
+    color: #ffffff !important;
+}
+
+.border {
+    border-color: #360739 !important;
+}
+
+.text-white {
+    color: #ffffff !important;
+}
+
+a {
+    color: #9b59b6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6a0dad;
+    text-decoration: underline;
+}

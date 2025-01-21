@@ -1,0 +1,133 @@
+/* Configuración general */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e28d2b;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Barra de navegación */
+header nav {
+    display: flex;
+    justify-content: center;
+    background-color: #ffcc80; /* Amarillo más fuerte */
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar img {
+    height: 100px; /* Imagen más grande */
+    width: auto; /* Mantiene la proporción del logo */
+    margin-right: 100px; /* Espacio entre el logo y los enlaces */
+}
+header nav ul {
+    list-style: none;
+    margin: 0 15px;
+    padding: 0;
+}
+
+.navbar li a:hover {
+    background-color: #ffe0b2; /* Amarillo más suave */
+    color: #333;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+header nav ul li:hover {
+    background-color: #ffe0b2; /* Amarillo más suave */
+    color: #d35400; /* Naranja */
+    border-radius: 8px;
+}
+
+/* Contenedor principal - Disposición de tres columnas */
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr; /* Tres columnas: izquierda, contenido principal, derecha */
+    gap: 20px; /* Espacio entre las columnas */
+    margin: 20px;
+    flex: 1;
+}
+
+/* Barra lateral izquierda */
+.barra-lateral.izquierda {
+    background-color: #ffcc80; /* Amarillo fuerte */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.barra-lateral.izquierda h2 {
+    color: #d35400; /* Naranja oscuro */
+    margin-bottom: 10px;
+}
+
+.barra-lateral.izquierda p {
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Barra lateral derecha */
+.barra-lateral.derecha {
+    background-color: #ffe0b2; /* Amarillo suave */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.barra-lateral.derecha h2 {
+    color: #d35400; /* Naranja oscuro */
+    margin-bottom: 10px;
+}
+
+.barra-lateral.derecha p {
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Contenido principal */
+.contenido-principal {
+    background-color: #fff3e0; /* Color más suave para el fondo */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contenido-principal h1 {
+    color: #d35400; /* Naranja oscuro */
+    margin-bottom: 20px;
+}
+
+.contenido-principal p {
+    line-height: 1.8;
+    color: #333;
+}
+
+/* Imágenes */
+.Imagen img,
+.Imagen1 img,
+.Imagen2 img,
+.Imagen3 img {
+    max-width: 50%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #ffb74d; /* Naranja suave */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
